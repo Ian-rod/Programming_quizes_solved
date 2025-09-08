@@ -15,8 +15,6 @@ public class MedianOfSortedArrays {
           }
           int index1=(int)Math.ceil((double)(length-2)/2);
           int index2=(int) Math.ceil((double)(length-1)/2);
-          System.out.println(index1);
-          System.out.println(index2);
           return (double) (list.get(index1)+list.get(index2))/2;
     }
 
