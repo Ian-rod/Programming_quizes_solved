@@ -10,7 +10,7 @@ Note: Assume we are dealing with an environment that could only store integers w
 */
 
 
-public class DivisionTwosComplement {
+public class DivisionWIthoutDivideSymbol {
     public int divide(int dividend, int divisor) {
     //subtract until dividend is <divisor
     boolean negative=false;
