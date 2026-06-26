@@ -34,7 +34,7 @@ nums.length == n + 1
 1 <= nums[i] <= n
 
 */
-
+import java.util.*;
 public class DuplicateNumber {
      public int findDuplicate(int[] nums) {
        for(int i=0;i<nums.length;i++)
@@ -45,6 +45,14 @@ public class DuplicateNumber {
                 return nums[i];
             }
         }
+       }
+        return 0;
+    } 
+   public int findDuplicate2(int[] nums) {
+     List<Integer> numbers=new ArrayList<>();
+       for(int i=0;i<nums.length;i++)
+       {
+
        }
         return 0;
     } 
