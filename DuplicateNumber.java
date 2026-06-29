@@ -52,8 +52,12 @@ public class DuplicateNumber {
      List<Integer> numbers=new ArrayList<>();
        for(int i=0;i<nums.length;i++)
        {
-
+            if(numbers.contains(nums[i]))
+            {
+                return nums[i];
+            }
+            numbers.add(nums[i]);
        }
-        return 0;
+      return 0;
     } 
 }
